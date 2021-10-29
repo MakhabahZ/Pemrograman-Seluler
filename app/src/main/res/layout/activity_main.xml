@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgsaya"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/profil"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama  : Makhabah Zaeni Qosti"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM     : 19.01.4349"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="60dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi Mahasiswa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/etMasukanProgramStudiMahasiswa"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:inputType="text"
+        android:hint="Masukan Program Studi Mahasiswa"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="27dp"
+        android:text="Submit"
+        android:backgroundTint="#2180F3"/>
+
+
+
+
+
+
+
+</LinearLayout>
